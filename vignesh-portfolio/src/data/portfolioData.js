@@ -118,8 +118,8 @@ export const projects = [
       'PG image management',
     ],
     tech: ['Java', 'Spring Boot', 'PostgreSQL', 'Supabase', 'React', 'JWT', 'REST API'],
-    github: '#', // TODO: replace with actual GitHub repo URL
-    demo: '#', // TODO: replace with actual live demo URL
+    github: 'https://github.com/vigneshbabu0505-spec/PgPeekIn',
+    demo: 'https://pg-peek-in.vercel.app',
     visual: 'pgpeekin', // used by ProjectCard to render the CSS mockup
     architecture:
       'Spring Boot backend exposing modular REST APIs (Auth, Owner, Tenant, Booking, Payment, Review), backed by a PostgreSQL database hosted on Supabase. React frontend consumes the APIs, with JWT-based role authentication separating owner and tenant flows.',
